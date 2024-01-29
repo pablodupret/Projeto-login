@@ -56,15 +56,24 @@ High-res laptop or desktop: 1920 x 1080
     }
 
     section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: right;
+    }
+
+    section#login > div#formulário {
         float: left;
         width: 50%;
         height: 100%;
     }
 
-    section#login > div#formulário {
-        float: right;
-        width: 50%;
-        height: 100%;
+    div#formulário > h1 {
+        font-size: 1.6em;
+    }
+
+    div#formulário > p {
+        font-size: 1.2em;
     }
 
 
