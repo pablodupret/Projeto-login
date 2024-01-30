@@ -29,7 +29,7 @@ section#login {
     
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute; 
@@ -60,4 +60,61 @@ div#formulário > h1 {
 
 div#formulário > p {
     font-size: 0.8em;
+}
+
+.campo {
+    
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px ;
+}
+
+div.campo > label {
+    display: none;
+}
+
+/* form > input[type=submit] {
+
+    display: block
+} 
+Pode usar assim caminho completo ou pode criar a classe e se referir mais diretamento, veja abaixo.
+*/
+
+.enviar {
+    display: block;
+    margin-top: 20px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+
+    background-color: #2d6462;
+    cursor: pointer;
+}
+
+.botao1 {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+a.botao1 > span {
+    font-size: 0.9em;
+}
+
+a.botao1:hover {
+    text-decoration: underline;
 }
